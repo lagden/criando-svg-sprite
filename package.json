@@ -1,0 +1,15 @@
+{
+  "name": "sprite-svg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sprite": "svg-sprite --dest ./svg --svg-rootattrs ./svg/sprite.rootattrs.json --config ./svg/sprite.config.json ./svg/src/*.svg",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "svg-sprite": "1.5.0"
+  }
+}

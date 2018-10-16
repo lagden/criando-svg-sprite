@@ -1,0 +1,46 @@
+{
+  "log": "info",
+  "shape": {
+    "id": {
+      "separator": "",
+      "generator": "iconimble_%s"
+    },
+    "dimension": {
+      "precision": 2
+    },
+    "transform": [
+      {
+        "svgo": {
+          "plugins": [
+            {
+              "removeTitle": true
+            },
+            {
+              "removeUnusedNS": true
+            },
+            {
+              "cleanupEnableBackground": true
+            },
+            {
+              "removeEmptyContainers": true
+            },
+            {
+              "removeHiddenElems": true
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "svg": {
+    "xmlDeclaration": false,
+    "doctypeDeclaration": false,
+    "namespaceIDs": false
+  },
+  "mode": {
+    "symbol": {
+      "dest": "./out",
+      "sprite": "sprite.svg"
+    }
+  }
+}
